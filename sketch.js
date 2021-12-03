@@ -37,7 +37,7 @@ function preload() {
 }
 
 function setup() {
-  canvas = createCanvas(1200, 600);
+  canvas = createCanvas(windowWidth, windowHeight);
   engine = Engine.create();
   world = engine.world;
   angleMode(DEGREES)
